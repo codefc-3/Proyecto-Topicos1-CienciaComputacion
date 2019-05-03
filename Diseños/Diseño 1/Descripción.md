@@ -1,5 +1,6 @@
 #### Fortalezas:
-Fácil de Usar 
+Fácil de Usar
+
 Intuitivo
 
 #### Debilidades:
