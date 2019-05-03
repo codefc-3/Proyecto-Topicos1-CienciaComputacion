@@ -1,12 +1,13 @@
-# Proyecto-Topicos1-CienciaComputacion
+# Proyecto del curso de  Tópicos Especiales de Ciencia de la Computación 1
 
-## UNIVERSIDAD NACIONAL DE INGENIERIA
+## Universidad Nacional de Ingenieria
 
-### FACULTAD DE CIENCIAS
+### Facultad de Ciencias
 
-Tema: Seguridad ciudadana.
+##### Tema:
+Seguridad ciudadana.
 
-INTEGRANTES: 
+##### Integrantes: 
 
 Avila Santos,Alex
 
