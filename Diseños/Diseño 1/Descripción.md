@@ -1,7 +1,7 @@
 #### Fortalezas:
-Fácil de Usar
+  Fácil de Usar
 
-Intuitivo
+  Intuitivo
 
 #### Debilidades:
 Debido a que las alertas son generadas por cualquier persona esto podría incluir reportes falsos o spam 
