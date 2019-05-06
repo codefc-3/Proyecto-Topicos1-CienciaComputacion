@@ -15,3 +15,7 @@ Al igual que el otro diseño, los usuarios podrían generar spam o generar alert
 Confusión por los iconos de selección.
 
 Es similar al diseño anterior
+
+#### Enlace figma
+
+https://www.figma.com/proto/IzGa3vX9baWOsDoPLwSTSV/qazxsw-Copy?node-id=2%3A2&scaling=scale-down
