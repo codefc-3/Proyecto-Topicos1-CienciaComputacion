@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "37599597452",
+    "firebase_url": "https://warnapp-7af5a.firebaseio.com",
+    "project_id": "warnapp-7af5a",
+    "storage_bucket": "warnapp-7af5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37599597452:android:01a29e6aeeb7ff30",
+        "android_client_info": {
+          "package_name": "app.mycompany.warnapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37599597452-1kjrruohsl6cocglveiih3qoitvho9vg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXNEFq8G_kBauXKF2kZGnCi2owAzRMIqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37599597452-1kjrruohsl6cocglveiih3qoitvho9vg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
