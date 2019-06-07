@@ -16,5 +16,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_maps">Map</string>
-
+    <string name="Username1">Juan Perez</string>
+    <string name="Username2">Carlos Martinez</string>
+    <string name="Username3">Ana Rodriguez</string>
 </resources>

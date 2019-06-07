@@ -1,4 +1,24 @@
 <resources>
-   
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false"> API KEY</string>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=7E:2F:7A:F0:0D:3D:D5:2A:08:B4:7E:C0:A4:34:0A:4D:BA:9B:C8:33%3Bapp.mycompany.warnapp
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    7E:2F:7A:F0:0D:3D:D5:2A:08:B4:7E:C0:A4:34:0A:4D:BA:9B:C8:33
+
+    SHA-1 certificate fingerprint:
+    7E:2F:7A:F0:0D:3D:D5:2A:08:B4:7E:C0:A4:34:0A:4D:BA:9B:C8:33
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">PONER CLAVE API </string>
 </resources>
