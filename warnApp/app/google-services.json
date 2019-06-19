@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "37599597452-ae7tk2q5htt3d93h7jv7ob738k34a63h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.mycompany.warnapp",
+            "certificate_hash": "d446bc9224f745a38cd886b6654d0674b25f9eb2"
+          }
+        },
+        {
           "client_id": "37599597452-1kjrruohsl6cocglveiih3qoitvho9vg.apps.googleusercontent.com",
           "client_type": 3
         }

@@ -75,7 +75,7 @@
         android:layout_width="217dp"
         android:layout_height="wrap_content"
         android:onClick="register"
-        android:text="@string/register"
+        android:text="@string/button_register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
