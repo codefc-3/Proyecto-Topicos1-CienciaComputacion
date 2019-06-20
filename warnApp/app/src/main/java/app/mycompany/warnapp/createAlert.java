@@ -32,13 +32,14 @@ private DatabaseReference AlertaDB;
 
     public void registrarAlerta(){
         String ubicacion = txtUbicacion.getText().toString();
-        String alerta = txtUbicacion.getText().toString();
+        String alerta = txtAlerta.getText().toString();
 
         if(!TextUtils.isEmpty(alerta)){
             String id = AlertaDB.push().getKey();
+            //faltaria agregar el id del usuario
             Alerta alertaP = new Alerta(id,ubicacion,alerta);
 
-            AlertaDB.child("alertas").setValue(alertaP);
+            AlertaDB.child(id).setValue(alertaP);
 
             Toast.makeText(this,"Alerta creada", Toast.LENGTH_LONG).show();
         }
