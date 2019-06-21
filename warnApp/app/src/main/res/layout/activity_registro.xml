@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo_gradiente"
     tools:context="app.mycompany.warnapp.Registro">
 
     <TextView
@@ -24,6 +25,7 @@
         android:id="@+id/EditText_signUp_username"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
         android:ems="10"
         android:hint="@string/Username"
         android:inputType="textPersonName"
@@ -39,7 +41,8 @@
     <EditText
         android:id="@+id/EditText_signUp_password"
         android:layout_width="250dp"
-        android:layout_height="49dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
         android:ems="10"
         android:hint="@string/Password"
         android:inputType="textPassword"
@@ -54,6 +57,7 @@
         android:id="@+id/editText_signUp_phone"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
         android:ems="10"
         android:hint="@string/phone"
         android:inputType="phone"
@@ -68,6 +72,7 @@
         android:id="@+id/editText_signUp_email"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
         android:ems="10"
         android:hint="@string/Email"
         android:inputType="textEmailAddress"
