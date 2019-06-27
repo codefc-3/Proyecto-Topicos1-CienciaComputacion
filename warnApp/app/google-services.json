@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "37599597452-08qfctfd35njp7a9q7vii9ri4aoj4tn8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.mycompany.warnapp",
+            "certificate_hash": "7e2f7af00d3dd52a08b47ec0a4340a4dba9bc833"
+          }
+        },
+        {
           "client_id": "37599597452-ae7tk2q5htt3d93h7jv7ob738k34a63h.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -29,7 +37,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCXNEFq8G_kBauXKF2kZGnCi2owAzRMIqo"
+          "current_key": "AIzaSyDr7o11mRE1g08XMaa90SvBTfo1ixs6DfM"
         }
       ],
       "services": {

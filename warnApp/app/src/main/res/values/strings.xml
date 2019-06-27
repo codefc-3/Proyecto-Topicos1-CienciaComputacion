@@ -9,7 +9,7 @@
     <string name="button_login">Iniciar Sesión</string>
     <string name="button_register">Registrate</string>
     <string name="button_create_account">Crear cuenta</string>
-    <string name="button_SOS">S.O.S. </string>
+    <string name="button_SOS">S.O.S.</string>
     <string name="button_create_alert">Crear Alerta</string>
     <string name="button_Comments">Comentarios</string>
     <string name="button_maps">Mapa</string>
@@ -19,10 +19,11 @@
     <string name="action_settings">Configuración</string>
     <string name="title_activity_maps">Mapa</string>
 
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">Bienvenido</string>
 
     <string name="Username1">Juan Perez</string>
     <string name="Username2">Carlos Martinez</string>
     <string name="Username3">Ana Rodriguez</string>
-    <string name="escribe_la_alerta">Escribe la alerta</string>
+    <string name="escribe_la_alerta">Escribe los detalles</string>
+    <string name="colocar_titulo">Coloca el título de la alerta</string>
 </resources>

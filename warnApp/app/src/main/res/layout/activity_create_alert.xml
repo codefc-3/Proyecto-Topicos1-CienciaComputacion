@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo_gradiente"
     tools:context="app.mycompany.warnapp.createAlert">
 
     <TextView
@@ -21,12 +22,12 @@
         tools:text="Crear alerta" />
 
     <TextView
-        android:id="@+id/txt_nom_ubicacion"
+        android:id="@+id/txt_nom_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
-        android:text="Coloque la ubicación"
+        android:text="@string/colocar_titulo"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_crear_alerta" />
@@ -36,16 +37,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
         android:ems="10"
         android:inputType="textMultiLine|textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_nom_ubicacion" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_nom_titulo" />
 
     <TextView
         android:id="@+id/txt_escribe_alerta"
         android:layout_width="wrap_content"
-        android:layout_height="37dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
         android:text="@string/escribe_la_alerta"
@@ -55,12 +57,17 @@
 
     <EditText
         android:id="@+id/txt_alerta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
         android:ems="10"
+        android:gravity="start"
         android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_escribe_alerta" />
 
