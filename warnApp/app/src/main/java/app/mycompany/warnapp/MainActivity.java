@@ -169,12 +169,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         // Got last known location. In some rare situations this can be null.
                         if (location != null) {
                             //Log.e("Latitud: ",location.getLatitude()+"Longitud: "+location.getLongitude());
-
                             Map<String,Object> latlong = new HashMap<>();
                             latlong.put("Latitud",location.getLatitude());
                             latlong.put("Longitud",location.getLongitude());
+                            mUser = FirebaseAuth.getInstance().getCurrentUser();
+                            String username = mUser.getDisplayName();
 
-                            mdatabase.child("SOS").push().setValue(latlong);
+                            mdatabase.child("SOS").child(username).push().setValue(latlong);
                             //Toast.makeText(MainActivity.this, "La: "+location.getLatitude()+"Lo:",
                              //       Toast.LENGTH_SHORT).show();
                             Toast.makeText(MainActivity.this,"Enviando ubicación",Toast.LENGTH_LONG).show();

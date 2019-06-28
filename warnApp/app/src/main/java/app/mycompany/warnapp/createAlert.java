@@ -21,7 +21,10 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 public class createAlert extends AppCompatActivity {
@@ -79,6 +82,11 @@ public class createAlert extends AppCompatActivity {
         //progressDialog.setMessage("Realizando alerta...");
         //progressDialog.show();
 
+        //SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+        //Date date = new Date();
+
+        //String fecha = dateFormat.format(date);
+
         Map<String, Object> datosalerta = new HashMap<>();
         if(!noanonimo){
             datosalerta.put("username","anónimo");
@@ -87,6 +95,7 @@ public class createAlert extends AppCompatActivity {
         }
         datosalerta.put("titulo", titulo);
         datosalerta.put("alerta",alerta);
+        //datosalerta.put("fecha",fecha);
 
         db.collection("alertas")
                 .add(datosalerta)

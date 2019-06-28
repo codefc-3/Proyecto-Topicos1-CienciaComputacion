@@ -33,7 +33,7 @@ public class comments extends AppCompatActivity {
 
         comentarios = db.collection("alertas");
 
-        db.collection("alertas")
+        db.collection("alertas").orderBy("titulo")//.orderBy("fecha")
                 .get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     private static final String TAG = "AA" ;
