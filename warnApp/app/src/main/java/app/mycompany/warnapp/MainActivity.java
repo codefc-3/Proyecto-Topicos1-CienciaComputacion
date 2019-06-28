@@ -70,7 +70,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
         mdatabase = FirebaseDatabase.getInstance().getReference();
 
-        //if(ActivityCompat.checkSelfPermission(this,Manifest.permission.ACCESS_FINE_LOCATION) !=)
         //subirLatLon();
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -148,6 +147,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         }
 
+
         /*if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
@@ -161,11 +161,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         else{
             Toast.makeText(MainActivity.this,"No hay permiso de ubicación",Toast.LENGTH_LONG).show();
         }*/
-        progressDialog.dismiss();
+        //progressDialog.dismiss();
         mFusedLocationClient.getLastLocation()
                 .addOnSuccessListener(MainActivity.this, new OnSuccessListener<Location>() {
                     @Override
                     public void onSuccess(Location location) {
+                        Toast.makeText(MainActivity.this,"Enviando ubicación",Toast.LENGTH_LONG).show();
                         // Got last known location. In some rare situations this can be null.
                         if (location != null) {
                             //Log.e("Latitud: ",location.getLatitude()+"Longitud: "+location.getLongitude());
@@ -178,12 +179,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                             mdatabase.child("SOS").child(username).push().setValue(latlong);
                             //Toast.makeText(MainActivity.this, "La: "+location.getLatitude()+"Lo:",
                              //       Toast.LENGTH_SHORT).show();
-                            Toast.makeText(MainActivity.this,"Enviando ubicación",Toast.LENGTH_LONG).show();
+                            Toast.makeText(MainActivity.this,"Ubicación enviada",Toast.LENGTH_LONG).show();
+                        }
+                        else{
+                            Toast.makeText(MainActivity.this,"Error: No se envió ubicación",Toast.LENGTH_LONG).show();
                         }
                     }
                 });
 
-        //progressDialog.dismiss();
+        progressDialog.dismiss();
     }
 
     @Override

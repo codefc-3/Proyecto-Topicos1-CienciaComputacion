@@ -10,22 +10,6 @@
     tools:showIn="@layout/app_bar_main">
 
     <Button
-        android:id="@+id/button_Create_alert"
-        android:layout_width="250dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="8dp"
-        android:drawableLeft="@android:drawable/ic_dialog_alert"
-        android:onClick="notificar"
-        android:text="@string/button_create_alert"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_SOS"
-        app:layout_constraintVertical_bias="0.172" />
-
-    <Button
         android:id="@+id/button_comments"
         android:layout_width="250dp"
         android:layout_height="60dp"
@@ -53,6 +37,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_comments"
         app:layout_constraintVertical_bias="0.14999998" />
+
+    <Button
+        android:id="@+id/button_Create_alert"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@android:drawable/ic_dialog_alert"
+        android:onClick="notificar"
+        android:text="@string/button_create_alert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_SOS"
+        app:layout_constraintVertical_bias="0.172" />
 
     <Button
         android:id="@+id/button_SOS"
